@@ -12,7 +12,7 @@ st.write('음수?? 어렵지않아!')
 col1, col2 = st.columns(2)       
 # 왼쪽 문단
 with col1:
-st.subheader('**개념정리')
+st.subheader('개념정리')
 st.write('- 양수: 0보다 큰 수')
 st.write('- 음수: 0보다 작은 수')
 st.write('- 양수: (+) / 음수: (-) 부호가 붙음')
@@ -22,7 +22,7 @@ with col2:
 st.image('수학이미지.PNG')  # 이미지 파일 불러오기
 
 # 사용자의 입력을 받아서 a에 저장하기(초기값은 0)
-a = st.number_input('____________', value= 0)  
+a = st.number_input('수를 입력하세요', value= 0)  
 
 # 버튼 생성 및 동작
 if st.button('양수일까 ____일까?'):
